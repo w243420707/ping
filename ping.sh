@@ -7,8 +7,8 @@ ip_address=$(curl -s ifconfig.me)
 if ping -c 5 -W 2 -i 0.2 119.167.219.185 | grep "100% packet loss" > /dev/null
 then
     echo "🔴🔴🔴🔴🔴🔴"
-    curl ip.sb
+    curl myip.ipip.net
 else
     echo "🟢🟢🟢🟢🟢🟢"
-    curl ip.sb
+    curl myip.ipip.net
 fi
