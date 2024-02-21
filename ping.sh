@@ -10,4 +10,5 @@ then
     curl ip.sb
 else
     echo "🟢🟢🟢🟢🟢🟢"
+    curl ip.sb
 fi
