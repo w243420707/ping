@@ -9,6 +9,5 @@ then
     echo "🔴🔴🔴🔴🔴🔴"
     curl myip.ipip.net
 else
-    echo "🟢🟢🟢🟢🟢🟢"
-    curl myip.ipip.net
+    echo ""
 fi
